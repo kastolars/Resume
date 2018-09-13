@@ -62,7 +62,7 @@ class Memberships extends Component {
                         <div className="membership-info-container">
                             <div className="membership-info-title">
                                 <h3 >
-                                    Student Veterans of America
+                                    Student Veterans Association
                                     </h3>
                             </div>
                             <div className="list-container">
