@@ -1,0 +1,61 @@
+.education-header {
+    text-align: center;
+    text-shadow: 2px 2px 4px gray; 
+    letter-spacing: 6px;
+    padding-bottom: 10px;
+}
+
+.education-info {
+    justify-content: center;
+    display: flex;
+    background-image: radial-gradient( rgb(97, 97, 97), black) ;
+}
+
+.school-info {
+    padding-top: 20px;
+}
+
+.school-logo-container {
+    justify-content: center;
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.school-logo {
+    border-radius: 25px;
+    background-color: white;  
+}
+
+.school-brief-container {
+    justify-content: center;
+    display: flex;
+}
+
+.school-brief {
+    list-style: none;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 4px gray;
+}
+
+.relevant-coursework-header {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px gray;
+}
+
+.relevant-coursework-container {
+    justify-content: center;
+    display: flex;
+}
+
+.relevant-coursework {
+    list-style: disc;
+    color: white;
+    line-height: 25px;
+    font-size: 15px;
+}

@@ -1,0 +1,33 @@
+.contact-info-container {
+    /* background-color: rgb(234, 234, 253); */
+    padding-top: 40px;
+    background-image: linear-gradient(rgb(10, 68, 119), white);
+}
+
+.contact-info-header {
+    text-align: center;
+    text-shadow: 2px 2px 5px gray;
+}
+
+.contact-info {
+    padding-bottom: 50px;
+    justify-content: center;
+    display: flex;
+    text-shadow: 2px 2px 5px gray;
+    font-size: 20px;
+}
+
+.contact-info-list {
+    list-style: none;
+}
+
+.profile-pic-container {
+    padding-top: 105px;
+    padding-bottom: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+.profile-pic {
+    border-radius: 10px;
+}

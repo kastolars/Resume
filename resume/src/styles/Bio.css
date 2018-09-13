@@ -1,0 +1,29 @@
+.bio {
+    padding-top: 50px;
+    justify-content: center;
+    display: flex;
+    color: white;
+    background-color: rgb(170, 41, 90);
+}
+
+.bio-header {
+    text-shadow: 1px 1px 3px white; 
+    letter-spacing: 3mm;
+    padding-bottom: 20px;
+}
+
+.bio-body{
+    justify-content: center;
+    display: flex;
+    color: white;
+    background-color: rgb(170, 41, 90);
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.75mm;
+    text-align: center;
+}
+
+.bio-list {
+    list-style: none;
+}

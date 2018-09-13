@@ -1,0 +1,41 @@
+.skills-container {
+}
+
+.skills-header {
+    padding-top:20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px gray; 
+    letter-spacing: 6px;
+    padding-bottom: 20px;
+}
+
+.skills-info {
+    justify-content: center;
+    display: flex;
+}
+
+.carousel-container {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(10, 68, 119);
+    
+}
+
+.carousel {
+    
+}
+
+.carousel-item {
+    margin: 0;
+}
+
+.carousel-indicators {
+    bottom: -40px;
+}
+
+.skills-img {
+    padding: -5px;
+    background-color: rgb(10, 68, 119);
+}

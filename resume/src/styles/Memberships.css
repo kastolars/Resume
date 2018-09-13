@@ -1,0 +1,68 @@
+.memberships-container {
+
+}
+
+.membership-body {
+    /* background-color: rgb(10, 68, 119); */
+    background-image: radial-gradient(farthest-side, white, rgb(10, 68, 119)) ;
+    
+}
+
+.membership {
+    color: white;
+    padding-bottom: 20px;    
+}
+
+.membership-img-container {
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.membership-img {
+    border-radius: 10px;
+}
+
+.rugby-img {
+    background-color: white;
+}
+
+.membership-header {
+    padding-top:20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px gray; 
+    letter-spacing: 6px;
+    padding-bottom: 20px;
+    
+}
+
+.membership-info-container {
+    background-image: radial-gradient( rgb(54, 54, 54), black) ;
+    width: 40%;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: white;
+}
+
+.list-container {
+    justify-content: center;
+    display: flex;
+}
+
+.membership-info {
+    padding-bottom: 10px;
+    list-style: square;
+    color: white;
+    line-height: 25px;
+    font-size: 15px;
+    text-align: left;
+    text-shadow: 2px 2px 4px gray;
+}
+
+.membership-info-title {
+    padding-top: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 4px gray;
+}
