@@ -9,6 +9,7 @@ import ContactInfo from './ContactInfo'
 import Education from './Education'
 import WorkExperience from './WorkExperience'
 import Skills from './Skills'
+import Projects from './Projects'
 import Memberships from './Memberships'
 
 class App extends Component {
@@ -43,8 +44,8 @@ class App extends Component {
                                         <MenuItem eventKey={1.1} onClick={() => this.handleClick(this.top)}>Back to Top&nbsp;<Glyphicon glyph="arrow-up" /></MenuItem>
                                         <MenuItem eventKey={1.2} onClick={() => this.handleClick(this.education, -70)}>Education</MenuItem>
                                         <MenuItem eventKey={1.3} onClick={() => this.handleClick(this.workexp, -70)}>Work Experience</MenuItem>
-                                        <MenuItem eventKey={1.4} onClick={() => this.handleClick(this.skills, -60)} >Skills</MenuItem>
-                                        <MenuItem eventKey={1.5}>Projects</MenuItem>
+                                        <MenuItem eventKey={1.4} onClick={() => this.handleClick(this.projects, -70)}>Projects</MenuItem>
+                                        <MenuItem eventKey={1.5} onClick={() => this.handleClick(this.skills, -60)} >Skills</MenuItem>
                                         <MenuItem eventKey={1.6} onClick={() => this.handleClick(this.memberships, -60)}>Memberships</MenuItem>
                                         <MenuItem eventKey={1.7} onClick={() => this.handleClick(this.contact)}>Contact Info</MenuItem>
                                     </NavDropdown>
@@ -64,6 +65,7 @@ class App extends Component {
                 <BioBody />
                 <Education ref={(Education) => { this.education = Education }} />
                 <WorkExperience ref={(WorkExperience) => { this.workexp = WorkExperience }} />
+                <Projects ref={(Projects) => { this.projects = Projects }} />
                 <Skills ref={(Skills) => { this.skills = Skills }} />
                 <Memberships ref={(Memberships) => { this.memberships = Memberships }} />
                 <ContactInfo ref={(ContactInfo) => { this.contact = ContactInfo }} />
